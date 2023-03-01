@@ -1,0 +1,2 @@
+# TabNews
+Learning Tailwind CSS
