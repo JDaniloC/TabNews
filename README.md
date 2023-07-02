@@ -1,4 +1,5 @@
 # TabNews
+
 Learning Tailwind CSS, automatized tests and more
 
 ## Learnings
@@ -6,4 +7,5 @@ Learning Tailwind CSS, automatized tests and more
 The course teaches a lot of things, like git and github, but I will only list the things that I didn't know before.
 
 - [x] NVM versioning
-- [x] EditorConfig
+- [x] EditorConfig setup
+- [x] Prettier setup
