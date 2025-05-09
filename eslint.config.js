@@ -1,14 +1,14 @@
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
-	{
-    "overrides": [
+  {
+    overrides: [
       {
-        "files": ["tests/**/*"],
-        "env": {
-          "jest": true
-        }
-      }
-    ]
-  }
+        files: ["tests/**/*"],
+        env: {
+          jest: true,
+        },
+      },
+    ],
+  },
 ]);
