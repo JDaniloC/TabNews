@@ -9,11 +9,13 @@ Finding suitable camping locations can be challenging. People often spend hours 
 ## Features
 
 - 🗺️ **Interactive Map Exploration**
+
   - [ ] Browse camping locations on an interactive map
   - [ ] Filter by location type (private/public)
   - [ ] Check distance and accessibility
 
 - 📝 **Detailed Information**
+
   - [ ] Location descriptions and photos
   - [ ] Weather conditions and best seasons
   - [ ] Required permits or permissions
@@ -28,6 +30,7 @@ Finding suitable camping locations can be challenging. People often spend hours 
 ## Technologies
 
 - **Frontend:**
+
   - React.js
   - Next.js
   - Tailwind CSS
@@ -41,9 +44,10 @@ Finding suitable camping locations can be challenging. People often spend hours 
 ## Getting Started
 
 1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Access: `http://localhost:3000`
+2. Run docker compose: `docker compose -f infra/compose.yaml up`
+3. Install dependencies: `yarn install`
+4. Run development server: `yarn dev`
+5. Access: `http://localhost:3000`
 
 ## Contributing
 
