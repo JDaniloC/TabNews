@@ -15,7 +15,7 @@ export async function GET() {
   return Response.json({
     updated_at: updatedAt,
     database: {
-      version: databaseInfo.version,
+      version: databaseInfo.version.split(" ")[0],
       max_connections: parseInt(databaseInfo.max_connections, 10),
       current_connections: parseInt(databaseInfo.current_connections, 10),
     },

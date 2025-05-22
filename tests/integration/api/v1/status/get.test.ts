@@ -11,7 +11,7 @@ describe("Test /api/v1/ GET routes", () => {
     expect(body.database).toEqual({
       current_connections: 1,
       max_connections: 100,
-      version: "16.9",
+      version: "15.13",
     });
   });
 });
